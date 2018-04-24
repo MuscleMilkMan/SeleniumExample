@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="OpnionsPage Tests(failed)">
+    <classes>
+      <class name="tests.TestOpinionsPage">
+        <methods>
+          <include name="initialize"/>
+          <include name="navigateOpinionsTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TestOpinionsPage -->
+    </classes>
+  </test> <!-- OpnionsPage Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

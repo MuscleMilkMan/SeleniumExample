@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-24T01:35:34Z" name="Suite" finished-at="2018-04-24T01:36:18Z" duration-ms="44589">
+    <groups>
+    </groups>
+    <test started-at="2018-04-24T01:35:34Z" name="OpnionsPage Tests" finished-at="2018-04-24T01:36:03Z" duration-ms="29757">
+      <class name="tests.TestOpinionsPage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.TestOpinionsPage@29647f75]" started-at="2018-04-24T01:35:34Z" name="initialize" finished-at="2018-04-24T01:35:38Z" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="navigateOpinionsTest()[pri:0, instance:tests.TestOpinionsPage@29647f75]" started-at="2018-04-24T01:35:38Z" name="navigateOpinionsTest" finished-at="2018-04-24T01:36:03Z" duration-ms="24622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateOpinionsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestOpinionsPage@29647f75]" started-at="2018-04-24T01:36:03Z" name="tearDown" finished-at="2018-04-24T01:36:03Z" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestOpinionsPage -->
+    </test> <!-- OpnionsPage Tests -->
+    <test started-at="2018-04-24T01:36:04Z" name="Searchbar Tests" finished-at="2018-04-24T01:36:18Z" duration-ms="14754">
+      <class name="tests.TestSearchBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.TestSearchBar@c333c60]" started-at="2018-04-24T01:36:04Z" name="initialize" finished-at="2018-04-24T01:36:07Z" duration-ms="3346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testSearchBar()[pri:0, instance:tests.TestSearchBar@c333c60]" started-at="2018-04-24T01:36:07Z" name="testSearchBar" finished-at="2018-04-24T01:36:17Z" duration-ms="10534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestSearchBar@c333c60]" started-at="2018-04-24T01:36:17Z" name="tearDown" finished-at="2018-04-24T01:36:18Z" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestSearchBar -->
+    </test> <!-- Searchbar Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

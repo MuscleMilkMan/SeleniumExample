@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.Listeners"/>
+	</listeners>
+   <test name="OpnionsPage Tests">
+    <classes>
+      <class name="tests.TestOpinionsPage"/>
+      </classes>
+      </test>
+      <test name="Searchbar Tests">
+    <classes>
+      <class name="tests.TestSearchBar"/>
+            </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
